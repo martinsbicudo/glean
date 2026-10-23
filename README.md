@@ -10,6 +10,8 @@
   One space per language, spaced repetition, and an AI tutor that runs on the login you already have.
 </p>
 
+<p align="center"><img src="docs/images/review.gif" width="640" alt="Reviewing in Glean: the card “take for granted” flips to show its translations, definition and examples; “figure out” is recalled from a sentence with a blank, and the typed answer “figure ot” is marked close"></p>
+
 Each language you study lives in its own space, with its own cards, history and daily goal. Glean schedules
 your reviews with spaced repetition (SM-2) and reminds you when cards are due. You can also ask an AI about
 any card.
@@ -23,6 +25,11 @@ any card.
 The AI runs through the [Claude Code](https://claude.com/claude-code) or [Codex](https://github.com/openai/codex)
 CLI you already use, with your own login, so Glean needs no API keys. It also works with no AI at all.
 There are no accounts and no telemetry. Your data is plain JSON in `~/Glean`.
+
+<p align="center">
+  <img src="docs/images/cards.png" width="49%" alt="The Cards screen: a list of English cards with their Portuguese translations, and the card “figure out” open with its definition, examples and AI questions">
+  <img src="docs/images/coach.png" width="49%" alt="The Coach screen: cards, due count, reviews this week, retention and pronunciation score, a 14-day streak, a chart of reviews per day and the cards that are hardest for you">
+</p>
 
 ## Contents
 
