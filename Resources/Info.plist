@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Glean</string>
+	<key>CFBundleDisplayName</key>
+	<string>Glean</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.glean.app</string>
+	<key>CFBundleExecutable</key>
+	<string>Glean</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>__BUILD__</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.education</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Glean listens while you say a word or phrase so it can check your pronunciation on this Mac.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Glean uses Apple's on-device speech recognition to check your pronunciation.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Local build. No accounts, no telemetry.</string>
+</dict>
+</plist>
