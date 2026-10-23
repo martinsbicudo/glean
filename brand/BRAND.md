@@ -38,7 +38,7 @@ Don't put Iris on paper (2.7:1); use Plum or Graphite there.
 | `svg/glean-app-icon-small.svg` | Larger mark with wider gaps for the 16 and 32 px icon slots |
 | `svg/menubar.svg` | Menu bar template (drawn black; macOS shows it white on the menu bar). When cards are due, the count appears next to it |
 | `svg/glean-lockup*.svg` | Symbol + wordmark (graphite, plum, reversed) |
-| `png/` | Rendered app icon and lockups for READMEs and slides |
+| `png/` | Rendered app icon and lockups for READMEs and slides: `glean-lockup.png` (light backgrounds, transparent), `glean-lockup-dark.png` (dark backgrounds, transparent), `glean-lockup-reversed.png` (on a graphite tile) |
 
 ## Construction
 

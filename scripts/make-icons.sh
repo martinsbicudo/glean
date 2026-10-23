@@ -37,7 +37,8 @@ python3 "$RENDER" "$SVG/menubar.svg" -o "$RES/menubar@2x.png" --width 44 --heigh
 
 mkdir -p "$ROOT/brand/png"
 render "$SVG/glean-app-icon.svg" "$ROOT/brand/png/glean-app-icon-1024.png" 1024
-python3 "$RENDER" "$SVG/glean-lockup-plum.svg" -o "$ROOT/brand/png/glean-lockup.png" --bg "#F4EFE6" --width 1280 --height 512 >/dev/null
+python3 "$RENDER" "$SVG/glean-lockup-plum.svg" -o "$ROOT/brand/png/glean-lockup.png" --width 1280 --height 512 >/dev/null
+python3 "$RENDER" "$SVG/glean-lockup-reversed.svg" -o "$ROOT/brand/png/glean-lockup-dark.png" --width 1280 --height 512 >/dev/null
 python3 "$RENDER" "$SVG/glean-lockup-reversed.svg" -o "$ROOT/brand/png/glean-lockup-reversed.png" --width 1280 --height 512 --bg "#16181D" >/dev/null
 
 echo "icons written to $RES and $ROOT/brand/png"
