@@ -129,6 +129,17 @@ The change loop is: edit `Sources/Glean/…`, `make test`, `make install`. With 
 SwiftUI's macros (`@State`, `#Preview`) aren't available, so view state lives in an `ObservableObject` held
 by `@StateObject`. The [development docs](docs/development.md#building-without-xcode) explain why.
 
+### Optional: graft
+
+Two small files configure [graft](https://www.npmjs.com/package/@nanonets/graft), a code index that some AI coding
+agents use to search the repo: `.mcp.json` registers its MCP server for Claude Code, and `.ignore` keeps graft's
+generated cards (git-ignored) searchable by ripgrep. You don't need graft to build, test or contribute:
+
+- Without graft, `.ignore` has no effect.
+- Claude Code asks once whether to enable the `graft` server from `.mcp.json`. Decline it and nothing changes; if you
+  approve it without graft installed, it shows as failed under `/mcp` and everything else keeps working.
+- To use it: `npm i -g @nanonets/graft`, then `graft build` in the repo.
+
 ### How it fits together
 
 ```
